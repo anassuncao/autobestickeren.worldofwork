@@ -46,7 +46,7 @@ body {
     background: url("../images/autologo.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    height: 60px;
 }
 
 /*background: url("../images/andre.jpg") no-repeat center center;
