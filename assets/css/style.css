@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap');
+
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+   
+}
+
+.all-page-content {
+    background: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*------------------------------------Nav Bar-----------------------------*/
+
+.bg-light {
+    background-color: #ffed00!important;
+}
+
+.navbar {
+    min-height: 50px;
+}
+
+.navbar-light a {
+    color: #F2F2F2!important;
+}
+
+
+/*------------------------------------Name and Role Info-----------------------------*/
+
+.details-container, .container-logo {
+    padding-top: 60px;
+    background-size: cover;
+    background-color: #0242b0;
+    color: white;
+    min-height: 300px;
+    margin: 0px;
+    text-align: center;
+    /*position: relative;*/
+}
+
+.logo-image {
+    background: url("../images/autologo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*background: url("../images/andre.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  border-radius: 50%; */
+
+.header-details {
+    padding: 20px;
+    background-color: rgba(25,37,45,0.85);
+    display: inline-block;
+}
+
+.header-details h3 {
+    font-weight: 100;
+    margin-top: 15px;
+}
+
+/*This media query increases the space between the nav bar and the box with name and tittle and between said box and the content div in bigger screens in order to prevent
+the existence of white space in the bottom of the website.*/
+@media only screen and (min-height:900px) {
+    .details-container {
+        margin-bottom: 100px;
+        margin-top: 70px;
+    }
+}
+
+/*------------------------------------Contacts-----------------------------*/
+
+
+.contact-heading {
+    color: #333;
+    font-size: 17px;
+    line-height: 27px
+}
+
+.form-col {
+    padding: 20px;
+    margin: 10px;
+}
+
+.btn-secondary {
+    background-color: #36a75b;
+}
+
+
+/*------------------------------------Footer-----------------------------*/
+
+footer {
+    background-color: white;
+    color: #333;
+    min-height: 60px;
+    margin: 0;
+}
+
+#footer-details {
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+footer h6 {
+    
+    letter-spacing: 1px;
+    color: #333;
+}
+
+footer h6 i {
+    color: #0242b0;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: inline;
+}
+
+footer h6 i:hover {
+    color: #ffed00;
+}
+
+.in-logo {
+    color: #0242b0;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
