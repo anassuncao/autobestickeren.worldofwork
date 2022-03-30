@@ -1,13 +1,14 @@
 function sendMail(contactForm) {
-    emailjs.send("gmail","andre", {
+    emailjs.send("gmail","auto", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.email.value,
-        "message": contactForm.message.value,
+        "date": contactForm.date.value,
+        "time": contactForm.time.value,
     })
     .then(
         function(response) {
             console.log("SUCCESS", response.status, response.text);
-            alert("Email sent successfully!");
+            alert("Uw e-mail is verzonden. We nemen binnenkort contact met u op.");
         },
         function(error) {
             console.log("FAIL", error);
