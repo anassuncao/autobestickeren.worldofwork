@@ -36,7 +36,7 @@ body {
     background-size: cover;
     background-color: #0242b0;
     color: white;
-    min-height: 300px;
+    min-height: 150px;
     margin: 0px;
     text-align: center;
     /*position: relative;*/
@@ -81,6 +81,15 @@ the existence of white space in the bottom of the website.*/
     color: #333;
     font-size: 17px;
     line-height: 27px
+}
+
+.label-color {
+    color: #0242b0;
+}
+
+.label-margin {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .form-col {
